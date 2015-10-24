@@ -32,61 +32,7 @@ public class Bai2Lab03 {
 		return result;
 	}
 	public static void main(String[] agrs) throws IOException {
-		// Document doc =
-		// Jsoup.connect("http://dantri.com.vn/the-thao.htm").get();
-		//
-		//// if (doc != null) {
-		//// System.out.println(doc.toString());
-		//// }
-		// String title = doc.title();
-		// System.out.println(doc.tagName("a"));
-		// //Elements content = doc.select(".mt3");
-		// Elements content = doc.select("a[href$=.htm]");
-		//// System.out.println(content.toString());
-		// int size = content.size();
-		// System.out.println(content.text());
-		//// String doman = "http://dantri.com.vn/";
-		//// ArrayList<String> links = new ArrayList<String>();
-		//// String temp;
-		////// // Tạo URL của mỗi bài báo lấy về
-		//// for (Element c : content) {
-		//// if (c != null) {
-		//// temp = doman + c.attr("href");
-		//// System.out.println(c.toString());
-		//// links.add(temp);
-		//// }
-		////
-		//// }
-		//// // In ra URL mỗi bài báo
-		//// for (String url : links) {
-		//// System.out.println(url);
-		//// }
-		//
-		//// Elements text = null;
-		////
-		//// for (String url : links) {
-		//// System.out.println(url);
-		//// doc = Jsoup.connect(url).userAgent("Mozilla").get();
-		////
-		//// text = doc.select("#divNewsContent > p ");
-		//// if (text != null) {
-		////
-		//// for (Element e : text) {
-		//// System.out.println(e.text());
-		//// }
-		//// }
-		////
-		//// else
-		//// System.out.println("rông");
-		////
-		//// for (Element c : content) {
-		//// System.out.println(c.text());
-		////
-		//// }
-		//// System.out.println("=================================================================================");
-		//// }
-		//
-
+		
 		// Lấy dữ liệu từ file
 		String text = RWFileUTF8.readFileUTF8("baoTheThao.txt");
 
